@@ -143,7 +143,7 @@ git clone https://github.com/buitrongtrinh/Employee-attrition-prediction-catboos
 ### 2️⃣ Di chuyển vào thư mục dự án
 
 ```bash
-cd catboost-employee-attrition
+cd Employee-attrition-prediction-catboost
 ```
 
 ---
