@@ -94,11 +94,12 @@ Một số tham số được điều chỉnh:
 ---
 
 # 📈 Kết quả mô hình
+<img width="885" height="437" alt="image" src="https://github.com/user-attachments/assets/b2915ab2-dbb1-4085-b32a-0a7e13687326" />
 
 | Mô hình             | ROC-AUC   |
 | ------------------- | --------- |
 | CatBoost Baseline   | ~0.78     |
-| CatBoost sau tuning | **~0.82** |
+| CatBoost sau tuning | **~0.81** |
 
 Việc tuning tham số giúp **cải thiện hiệu suất mô hình** so với baseline.
 
@@ -108,14 +109,8 @@ Việc tuning tham số giúp **cải thiện hiệu suất mô hình** so với
 
 Các đặc trưng quan trọng nhất ảnh hưởng đến khả năng nghỉ việc:
 
-| Feature              | Importance |
-| -------------------- | ---------- |
-| OverTime             | 16.46      |
-| JobRole              | 11.31      |
-| StockOptionLevel     | 9.49       |
-| YearsWithCurrManager | 7.29       |
-| Age                  | 7.15       |
-| MonthlyIncome        | 5.63       |
+<img width="576" height="414" alt="image" src="https://github.com/user-attachments/assets/cfd76027-4991-464f-955b-69f1640053db" />
+
 
 Một số insight đáng chú ý:
 
